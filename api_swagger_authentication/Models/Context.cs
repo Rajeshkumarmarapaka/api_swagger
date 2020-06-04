@@ -14,5 +14,6 @@ namespace api_swagger_authentication.Models
         }
         public DbSet<Values> values { get; set; }
         public DbSet<Category> Categorys { get; set; }
+
     }
 }
